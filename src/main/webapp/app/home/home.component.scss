@@ -9,6 +9,50 @@ Main page styles
   background: url('../../content/images/jhipster_family_member_1.svg') no-repeat center top;
   background-size: contain;
 }
+#img {
+  width: 500px;
+  display: flex;
+  float: right;
+}
+.shape1 {
+  background-color: #ebe9ee;
+  width: 170px;
+  height: 60px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  float: right;
+}
+.shape2 {
+  background-color: #ebe9ee;
+  width: 400px;
+  height: 90px;
+  border-bottom-right-radius: 400px;
+}
+.tittle {
+  color: #a289bd;
+  font-weight: 800;
+  font-size: 48px;
+}
+.sous_titre {
+  font-size: 14px;
+  color: #bc9cec;
+  text-align: justify;
+  font-weight: 600;
+  width: 60%;
+}
+.btn {
+  background-color: #fd7ca5;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ebe9ee;
+  width: 60%;
+}
 
 /* wait autoprefixer update to allow simple generation of high pixel density media query */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
